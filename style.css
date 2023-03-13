@@ -1,0 +1,32 @@
+*{
+    margin: 0 auto;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header{
+    background-color: #CCD5AE;
+    color:rgb(9, 124, 86);
+    height: 55px;
+}
+h2{
+    float: left;
+    padding: 18px 9px;
+    font-size: 30px;  
+}
+.header_list li{
+    list-style: none;
+    float: left;
+    padding: 24px 14px;
+}
+
+.content_wrapper{
+    background-color: #E9EDC9;
+    height: 500px;
+}
+
+footer{
+    background-color: #FEFAE0;
+    height: 100px;
+}
