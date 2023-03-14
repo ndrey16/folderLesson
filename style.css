@@ -13,7 +13,8 @@ header{
 h2{
     float: left;
     padding: 18px 9px;
-    font-size: 30px;  
+    font-size: 30px;
+    
 }
 .header_list li{
     list-style: none;
@@ -21,9 +22,31 @@ h2{
     padding: 24px 14px;
 }
 
-.content_wrapper{
+.main{
     background-color: #E9EDC9;
-    height: 500px;
+    height: 350px;
+}
+.main-wrapper h1{
+    padding-top: 45px;
+    font-size: 75px;
+    text-align: center;
+    color: #94AF9F;
+}
+span{
+    color: #5D9C59;
+    font-size: 75px;
+}
+.main-wrapper h4{
+    text-align: center;
+    padding-top: 10px;
+    color: #AEC2B6;
+    font-size: 24px;
+}
+.main-wrapper img{
+    margin: 0 auto;
+    padding-left: 45%;
+    height: 100px;
+    width: 100px;
 }
 
 footer{
