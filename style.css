@@ -88,6 +88,53 @@ span{
     text-align: center;
     font-size: 18px;
 }
+
+/* Bagian Formulir & Footer */
+section {
+    box-sizing: border-box;
+    background-color: hsl(67, 50%, 86%);
+    height: 300px;
+    margin-top: 2px;
+}
+section h3 {
+    font-size: 24px;
+    color: #007a41;
+    text-align: center;
+}
+.form-contact {
+    margin: 8px;
+    padding-bottom: 4px;
+    color: #708cd6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+#btn-submit {
+    background-color: #7ba87d; /* Green */
+    border: none;
+    color: #f6f8f0;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+}
+#btn-submit:hover {
+    background-color: #077386;
+    color: #d8d50b;
+}
+input{
+    resize:none;
+    width:300px;
+    height:30px;
+    border-radius: 8px;
+}
+textarea{
+    resize:none;
+    width:300px;
+    height:50px;
+    border-radius: 8px;
+}
+
 footer{
     background-color: #FEFAE0;
     height: 100px;
